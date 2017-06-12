@@ -1,0 +1,23 @@
+#container {
+	margin: 100px;
+}
+
+.functions {
+	background-color: gray;
+}
+
+p {
+	text-align: center;
+}
+
+#reset {
+	background-color: gray;
+	width: 50%;
+	float: right;
+}
+
+#start {
+	background-color: pink;
+	width: 50%;
+	float: left;
+}
