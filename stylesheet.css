@@ -1,3 +1,6 @@
+#countdown {
+	background-color: #828282;
+}
 #container {
 	margin: 100px;
 }
@@ -11,7 +14,7 @@ p {
 }
 
 #reset {
-	background-color: gray;
+	background-color: #d1becf;
 	width: 50%;
 	float: right;
 }
