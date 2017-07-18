@@ -1,5 +1,12 @@
 $(document).ready(function(){
-	$('#reset').click(function(){
-		$('p#countdown').html('9')
-	})
-}
+	$('button#reset').on('click', function(){
+		funtion timer(){
+			var count = $('#countdown').text();
+			while (count > 0){
+				count--;
+				$('#countdown').text(count);
+			};
+		};
+		timer();
+	});
+});
