@@ -1,0 +1,39 @@
+#countdown {
+	background-color: #828282;
+}
+
+#timer {
+	text-align: center;
+	border: 2px solid black;
+	width: 50%;
+}
+#container {
+	margin: 100px;
+}
+
+.controls {
+	background-color: gray;
+	height: 50px;
+	width: 75px;
+}
+
+body {
+	text-align: center;
+}
+
+button {
+	font-size: 16px;
+}
+
+p {
+	text-align: center;
+	font-size: 100px;
+}
+
+#reset {
+
+}
+
+#start {
+	
+}
