@@ -1,26 +1,39 @@
 #countdown {
 	background-color: #828282;
 }
+
+#timer {
+	text-align: center;
+	border: 2px solid black;
+	width: 50%;
+}
 #container {
 	margin: 100px;
 }
 
-.functions {
+.controls {
 	background-color: gray;
+	height: 50px;
+	width: 75px;
+}
+
+body {
+	text-align: center;
+}
+
+button {
+	font-size: 16px;
 }
 
 p {
 	text-align: center;
+	font-size: 100px;
 }
 
 #reset {
-	background-color: #d1becf;
-	width: 50%;
-	float: right;
+
 }
 
 #start {
-	background-color: pink;
-	width: 50%;
-	float: left;
+	
 }
