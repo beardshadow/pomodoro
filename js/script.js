@@ -16,9 +16,11 @@ $(function() {
     }
 
     function counting(){
-        p.text(--val);
-        if (val === 0)
+        if (val === 0){
             clearInterval(id);
+        }else{
+            p.text(--val);
+        }
     }
 
     function stopCountdown(){
@@ -33,3 +35,7 @@ $(function() {
         p.text(val);
     }
 });
+
+// need to add code to stop counter if it starts at '0', currently it
+// will start counting into negative if start is pressed with counter set
+// at '0'
